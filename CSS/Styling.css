@@ -1,0 +1,37 @@
+#topBar{
+    margin-top: -25px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    
+    color: silver;
+    background-color:red;
+}
+
+h1{
+    padding: 10px 10px 10px 10px;
+    margin-left: 1%;
+}
+
+#leftMenu{
+    display: flex;
+  flex-flow: column;
+    margin-top: -11.5px;
+    margin-left: -30px;
+    height: calc(100vh - 50px);
+    padding-right: 10px;
+    background-color: rgb(197, 201, 204);
+    float: left;
+}
+
+#main{
+    background-color: lightgray;
+}
+
+body{
+    background-color: lightgray;
+}
+
+ul{
+    list-style-type: none;    
+}
