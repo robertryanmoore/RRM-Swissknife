@@ -26,6 +26,15 @@ h1{
 
 #main{
     background-color: lightgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+      
 }
 
 body{
@@ -34,4 +43,19 @@ body{
 
 ul{
     list-style-type: none;    
+}
+
+button{
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 10px;
+}
+
+input{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.calcMode{
+    text-align: left;
 }

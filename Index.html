@@ -17,12 +17,28 @@
             </ul>
         </div>
         <div id="main">
+
+                <label for="afr">Aspect Ratio from resultion</label>
+                <input type="radio" id="calcAspectRatio" name="calcMode" value="calcAspectRatio" class="calcMode" checked="checked">
+            </br>
+                <label for="hfw">Height from ratio and width</label>
+                <input type="radio" id="calcHeight" name="calcMode" value="calcHeight" class="calcMode">
+            </br>
+                <label for="wf">Width from ratio and height</label>
+                <input type="radio" id="calcWidth" name="calcMode" value="calcWidth" class="calcMode">
+            </br>
+            </br>
                 <label for="height">Height: </label>
-                <input name="height" type="text">
+                <input name="height" type="text" id="heightInput">
+            </br>
                 <label for="Width">Width: </label>
-                <input name="Width" type="text">
+                <input name="Width" type="text" id="widthInput">
+            </br>
                 <label for="aspectRatio">Aspect Ratio: </label>
-                <input name="aspectRatio" type="text">
+                <input name="aspectRatio" type="text" id="aspectRatioInput">
+                
+                <button type="button" onclick="calc()" >Calculate</button>
         </div>
+        <script src="js/aspectratio.js"></script>
     </body>
 </html>
